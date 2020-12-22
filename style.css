@@ -1,0 +1,9 @@
+/*-- Normalize the bodies margin to zero --*/
+body {
+  margin: 0;
+}
+/*-- Display our Canvas on the entire page [welcome to the cinema] --*/
+canvas {
+  width: 100%;
+  height: 100%;
+}
