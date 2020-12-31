@@ -1,0 +1,9 @@
+body {
+  /*-- Normalize the bodies margin to zero --*/
+  margin: 0;
+  /*-- Set our Width and Height --*/
+  width: 100vw;
+  height: 100vh;
+  /*-- Destroy le nasty Scroll Bar --*/
+  overflow: hidden;
+}
