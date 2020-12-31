@@ -65,8 +65,8 @@ function init() {
 	// This function has to take in 4 parameters/arguments:
 	// FOV: Field of View, this defines the width of the camera perspective.
 	// Aspect Ratio: if we divide width by height, like an 80inch flatscreen, we will be just fine.
-  // Near Clipping Plane: Elements closer than this will not show up, anything behind our cameras vision will not show up. 
-  // Far Clipping Plane - Elements further away from this won't render,
+	// Near Clipping Plane: Elements closer than this will not show up, anything behind our cameras vision will not show up.
+	// Far Clipping Plane - Elements further away from this won't render,
 	// ! if the value you provide for FCP is too high it will cause preformance issues.
 
 	camera = new THREE.PerspectiveCamera(
